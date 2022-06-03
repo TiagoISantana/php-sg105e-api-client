@@ -1,0 +1,20 @@
+{
+  "name": "tisantan/php-sg105e-api-client",
+  "description": "API to TP-LINK TL-SG105E Equipment",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Tiago Santana"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SG105E\\": "src/SG105E/"
+    }
+  }
+}
